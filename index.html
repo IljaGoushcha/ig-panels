@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>testing panels</title>
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+</head>
+<body ng-app="mainModule" ng-controller="mainCtrl">
+    <h1>{{2 + 2}} testVariable</h1>
+    
+    <ig-panels config="igPanelsConfig">
+    	<ig-panel panel-id="0"></ig-panel>
+        <ig-slider slider-id="0"></ig-slider>
+        <ig-panel panel-id="1"></ig-panel>
+    </ig-panels>
+
+
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="scripts/main/main-module.js"></script>
+    <script src="scripts/main/controllers/main-ctrl.js"></script>
+
+    <!-- ig panels -->
+    <script src="scripts/ig-panels/ig-panels-module.js"></script>
+    <script src="scripts/ig-panels/controllers/ig-panels-ctrl.js"></script>
+    <script src="scripts/ig-panels/directives/ig-slider.js"></script>
+    <script src="scripts/ig-panels/directives/ig-panels.js"></script>
+    <script src="scripts/ig-panels/directives/ig-panel.js"></script>
+</body>
+</html>

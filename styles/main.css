@@ -1,0 +1,11 @@
+ig-panels {
+	border: 1px solid red;
+}
+
+ig-panel {
+	border: 1px solid blue;
+}
+
+ig-slider {
+	border: 1px solid green;
+}
