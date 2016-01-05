@@ -6,7 +6,8 @@ angular.module('mainModule')
 		$scope.igPanelsConfig = {
 			"offsetY": 100,
 			"offsetX": 200,
-			"sliderWidth": 10
+			"sliderWidth": 10,
+			"minWidth": 100
 		};
 		
 	}]);

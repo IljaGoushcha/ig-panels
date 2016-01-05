@@ -18,6 +18,12 @@ angular.module('igPanelsModule')
 					el.style.width = scope.panelsWidth[parseInt(attrs.panelId)] + 'px';
 				};
 
+				scope.$watch(function() {
+						return scope.panelsWidth[0];
+					}, function() {
+						el.style.width = scope.panelsWidth[parseInt(attrs.panelId)] + 'px';
+					});
+
 				onLoad();
 			}
 		};
